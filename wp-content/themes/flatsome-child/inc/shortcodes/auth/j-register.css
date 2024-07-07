@@ -1,0 +1,160 @@
+/*************** CSS for Desktop ***************/
+.j-register-form {
+    background-size: 100% 100%;
+}
+/* .j-register {
+    background-image: url(img/j-register.webp);
+    background-size: 190% auto;
+    background-position: center;
+    padding: 30% 0 0;
+    background-repeat: no-repeat;
+    margin-top: -25%;
+} */
+.j-register-form {
+    background-image: url(img/form.webp);
+    padding: 10px 30px 100px;
+}
+.j-register-form .j-register-title {
+    font-size: 1.8em;
+    font-weight: 500;
+}
+.j-register-form .form-group {
+    position: relative;
+}
+.j-register-form .form-group {
+    background-image: url(img/input.webp);
+    background-size: 100% 50px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 15px;
+}
+.j-register-form .form-group .form-control {
+    background-color: transparent !important;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0;
+    height: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.j-register-form .form-group span.fa {
+    color: #999999;
+    position: absolute;
+    top: 13px;
+    left: 25px;
+    font-size: 1.5em;
+}
+.j-register-form .form-group span.fa-eye,
+.j-register-form .form-group span.fa-eye-slash  {
+    left: auto;
+    right: 25px;
+    color: #999999;
+    cursor: pointer;
+}
+.j-register-form .form-group .errors {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 3px;
+    text-shadow: .5px .5px 0 #de2c03, .5px -.5px 0 #de2c03, -.5px .5px 0 #de2c03, -.5px -.5px 0 #de2c03, .5px 0 0 #de2c03, 0 .5px 0 #de2c03, -.5px 0 0 #de2c03, 0 -.5px 0 #de2c03;
+}
+.j-register-form .btn_form {
+    width: 110%;
+    position: absolute;
+    left: -5%;
+    bottom: -5%;
+}
+.j-register-form .btn_form button {
+    margin: 0 auto 5px;
+    background-color: transparent;
+    padding: 0;
+}
+#alert-modal .btn-close {
+    background-image: url(img/form.webp);
+    background-size: 100% 100%;
+    background-color: transparent;
+    border: none;
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -37px !important;
+}
+
+#alert-modal h4 {
+    color: #ffe400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#alert-modal p {
+    margin-bottom: 0;
+    color: #f20000;
+    font-weight: bold;
+    text-align: center;
+}
+
+#alert-modal {
+    padding: 20px 15px;
+    background: linear-gradient(
+        to right,
+        #3e290c 0,
+        #53401e 25%,
+        #6e5d35 50%,
+        #53401e 75%,
+        #3e290c 100%
+    );
+    border: 2px solid #c3ad61;
+    border-radius: 10px;
+}
+input::placeholder,
+textarea::placeholder,
+select::placeholder,
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder,
+select::-ms-input-placeholder,
+.j-register-form .form-group .form-control::placeholder,
+.j-register-form .form-group .form-control::-ms-input-placeholder {
+    font-weight: 100;
+    color: #ccc !important;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out" !important;
+    -webkit-transition-delay: 9999s !important;
+}
+/*************** CSS for Tablet ***************/
+@media only screen and (max-width: 849px) {
+    .j-register-form {
+        padding: 5px 20px 65px;
+    }
+    .j-register-form .j-register-title {
+        font-size: 1.3em;
+    }
+    .j-register-form .form-group {
+        background-size: 100% 40px;
+        padding-bottom: 10px;
+    }
+    .j-register-form .form-group .form-control {
+        height: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .j-register-form .form-group span.fa {
+        top: 10px;
+        left: 20px;
+        font-size: 1.2em;
+    }
+    .j-register-form .form-group span.fa-eye,
+    .j-register-form .form-group span.fa-eye-slash  {
+        left: auto;
+        right: 20px;
+    }
+    
+}
+
+/*************** CSS for mobile ***************/
+@media only screen and (max-width: 549px) {
+}
